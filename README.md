@@ -12,7 +12,7 @@
 <li>9.刪除課程評價(刪除)</li>
 </ul>
 
-### 前端端建置任務
+### 前端建置任務
 <ul>
 <li>1.登入頁</li>
 <li>2.首頁</li>
@@ -25,3 +25,14 @@
 <li>9.課程詳細資訊</li>
 <li>10.課程列表</li>
 </ul>
+
+## 前端注意事項
+>1.命名規則:(此頁簡稱)-(物件名稱)<br/>
+  例如:首頁的按鈕---->  index-button<br/>
+       搜尋的打字框---->  search-input<br/>
+>2.盡量都用class做命名<br/>
+>3.CSS排版的時候最好不用px(微調是可以的)，盡量使用%跟vw、vh<br/>
+>4.還是要先拉完html再拉CSS哦<br/>
+>5.在開始製作前、先把下面的東西放在head裡面<br/>
+<pre><code><meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"></code></pre>
