@@ -1,0 +1,18 @@
+ rader-chart svg{
+            background-color:black;
+}
+rader-chart path{
+            
+            stroke: white;
+            fill:white;
+            stroke-linejoin:round;
+            stroke-linecap:round;
+}
+rader-chart .inside_line{
+            stroke-width:1;
+            stroke: gray;
+            stroke-dasharray:5;
+}
+rader-chart polygon{
+            fill:rgba(0,0,0);
+}
