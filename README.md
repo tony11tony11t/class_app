@@ -34,5 +34,6 @@
 >3.CSS排版的時候最好不用px(微調是可以的)，盡量使用%跟vw、vh<br/>
 >4.還是要先拉完html再拉CSS哦<br/>
 >5.在開始製作前、先把下面的東西放在head裡面<br/>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
