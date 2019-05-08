@@ -41,11 +41,11 @@
  
  ## 後端資料庫操作檔案
  #### 會員
- >insert_user.php   加入會員
+ >insert_user.php   加入會員<br/>
  #### 課程列表
- >search_class.php  搜尋課程
- >search_classterm.php 類別課程
- >get_class_info.php 取得課程資訊
+ >search_class.php  搜尋課程<br/>
+ >search_classterm.php 類別課程<br/>
+ >get_class_info.php 取得課程資訊<br/>
  #### 課程評價
- >get_class_evaluation.php 取得課程評價
- >insert_evaluation.php 推薦課程
+ >get_class_evaluation.php 取得課程評價<br/>
+ >insert_evaluation.php 推薦課程<br/>
