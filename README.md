@@ -6,9 +6,9 @@
 <li>3.python抓取課程資料到資料庫(V)</li>
 <li>4.php與python交互，達到登入portal功能()</li>
 <li>5.在歷年學習檔中取得以修得通識課程名稱存入會員資料庫()</li>
-<li>6.利用php傳送課程資料到前端(搜尋)()</li>
-<li>7.利用php傳送課程評價到前端(搜尋)()</li>
-<li>8.新增課程評價(新增)()</li>
+<li>6.利用php傳送課程資料到前端(搜尋)(V)</li>
+<li>7.利用php傳送課程評價到前端(搜尋)(V)</li>
+<li>8.新增課程評價(新增)(V)</li>
 <li>9.刪除課程評價(刪除)()</li>
 <li>10.建立會員資料庫(V)</li>
 </ul>
@@ -38,3 +38,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+ 
+ ## 後端資料庫操作檔案
+ #### 會員
+ >insert_user.php   加入會員
+ #### 課程列表
+ >search_class.php  搜尋課程
+ >search_classterm.php 類別課程
+ >get_class_info.php 取得課程資訊
+ #### 課程評價
+ >get_class_evaluation.php 取得課程評價
+ >insert_evaluation.php 推薦課程
