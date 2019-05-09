@@ -40,7 +40,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
  >6.引入css檔
  
-    <link rel=stylesheet type="text/css" href="css/wen.css">
+    <link rel=stylesheet type="text/css" href="檔案路徑">
     
  ## 後端資料庫操作檔案
  #### 會員
