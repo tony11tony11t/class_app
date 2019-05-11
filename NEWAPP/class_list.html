@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <script src="rader-chart/jquery-3.4.0.js"></script>
+    <script src="rader-chart/rader_chart.js"></script>
+    <script src="js/control_db.js"></script>
+    <link rel="stylesheet" type="text/css" href="rader-chart/rader_chart.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .classlist-body{
+            background-color: antiquewhite;
+            height:100%;
+            min-height: 100vh;
+        }
+        .classlist-header{
+            padding-top:3vh;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            height:3vh;
+        }
+        .classlist-header a,.classlist-header img{
+            height: 100%;
+        }
+        .classlist-classlist-cancel{
+            float: right;
+        }
+        .classlist-item img{
+            display: inline-block;
+            width: 15vw;
+            margin-right: 2vw;
+            margin-left: 2vw;
+        }
+        .classlist-item{
+            text-align: center;
+            margin-top: 3vh;
+        }
+        .classlist-classlist{
+            margin-top: 5vh;
+        }
+        .classlist-classlist-item{
+            width: 44vw;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+            border-radius: 10px;
+            height: 38vh;
+            margin-left: 3vw;
+            margin-right: 3vw;
+            margin-bottom: 4vh;
+            display: inline-block;
+        }
+        .classlist-classlist-raderchart{
+            text-align: center;
+            padding: 10%;
+        }
+        rader-chart{
+            width:35vw;
+        }
+        .classlist-classlist-title{
+            margin-top: -20px;
+            text-align: center;
+            height: 11vw;
+            padding: 2vw;
+        }
+        .classlist-classlist-starcount{
+            text-align: center;
+            margin-top: 1vh;
+        }
+        .classlist-classlist-starcount img{
+            height:3vh;
+            margin-left: 2vw;
+        }
+        @media screen and (min-width: 375px){
+            .classlist-classlist-starcount{
+                margin-top: -1vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="classlist-body">
+        <div class="classlist-header">
+            <a href="#index" class="classlist-classlist-back"><img src="img/back.png"></a>
+            <a href="#index" class="classlist-classlist-cancel"><img src="img/cancel.png"></a>
+        </div>
+        <div class="classlist-item">
+            <img src="img/GS_1.png">
+            <img src="img/GN_1.png">
+            <img src="img/LS_1.png">
+            <img src="img/LE_1.png">
+        </div>
+        <div class="classlist-classlist">
+            <!--div class="classlist-classlist-item">
+                <div class="classlist-classlist-raderchart">
+                    <rader-chart size="500" data-funny="1" data-self="1" data-interactive="1" data-practice="1" data-theory="1" data-total="1" data-theme="B_GN"></rader-chart>
+                </div>
+                <h5 class="classlist-classlist-title">語言與邏輯</h5>
+                <p class="classlist-classlist-starcount">4<span><img src="img/star.png"></span></p>
+            </div>-->
+            
+        </div>
+    </div>
+
+</body>
+    <script>
+        $(document).ready(function(){
+            console.log("test");
+            var term="GS";
+            search_classterm(term);
+        })
+    </script>
+
+
+</html>

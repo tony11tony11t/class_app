@@ -1,18 +1,43 @@
- rader-chart svg{
-            background-color:black;
-}
-rader-chart path{
-            
-            stroke: white;
-            fill:white;
+/*data-theme=A*/
+rader-chart[data-theme="A"] path{          
+            stroke: black;
+            stroke-width:1;
+            fill:rgb(0,0,0,0);
             stroke-linejoin:round;
             stroke-linecap:round;
 }
-rader-chart .inside_line{
-            stroke-width:1;
+rader-chart[data-theme="A"] .inside_line{
+            stroke-width:0.8;
             stroke: gray;
             stroke-dasharray:5;
 }
-rader-chart polygon{
-            fill:rgba(0,0,0);
+rader-chart[data-theme="A"] polygon{
+            fill:url(#Gradient1);
+}
+rader-chart[data-theme="A"]{
+    width:30vw;
+}
+
+/*data-theme=B*/
+rader-chart[data-theme^="B"] path{          
+            fill:rgb(0,0,0,0);
+}
+rader-chart[data-theme^="B"] .inside_line{
+            stroke: white;
+}
+rader-chart[data-theme="B_GS"] polygon{
+            fill:#040C3E;
+}
+rader-chart[data-theme="B_GN"] polygon{
+            fill:#AD5096;
+}
+rader-chart[data-theme="B_LS"] polygon{
+            fill:#0D25B9;
+}
+rader-chart[data-theme="B_LE"] polygon{
+            fill:#FD6585;
+            opacity: 0.4;
+}
+rader-chart[data-theme^="B"]{
+    width:30vw;
 }
