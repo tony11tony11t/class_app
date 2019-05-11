@@ -4,7 +4,7 @@
 <li>1.建立課程資料庫(V)</li>
 <li>2.建立評價資料庫(V)</li>
 <li>3.python抓取課程資料到資料庫(V)</li>
-<li>4.php與python交互，達到登入portal功能()</li>
+<li>4.php與python交互，達到登入portal功能(V)</li>
 <li>5.在歷年學習檔中取得以修得通識課程名稱存入會員資料庫()</li>
 <li>6.利用php傳送課程資料到前端(搜尋)(V)</li>
 <li>7.利用php傳送課程評價到前端(搜尋)(V)</li>
