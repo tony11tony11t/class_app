@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 //連結資料庫
  $db = mysqli_connect("localhost", "root", "t8711111")
     or die("MySQL server connect error!<br/>");

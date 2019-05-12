@@ -1,43 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
-<script src="rader-chart/rader_chart.js"></script>
-<script src="js/control_db.js"></script>
-<script src="js/index.js"></script>
-<link rel="stylesheet" type="text/css" href="rader-chart/rader_chart.css">
-<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
-<link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    <script src="module/jquery-confirm-v3.3.4/js/jquery-confirm.js"></script>
+    <script src="rader-chart/rader_chart.js"></script>
+    <script src="js/control_db.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="module/jquery-confirm-v3.3.4/css/jquery-confirm.css">
+    <link rel="stylesheet" type="text/css" href="rader-chart/rader_chart.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/wen.css">
 </head>
+
 <body>
-   <!--課程列表-->
+    <!--登入頁面-->
+    <div data-role="page" id="page-login">
+        <div class="login-body">
+            <div class="login-Portrait">
+                <div class="login-icon">
+                    <img src="img/photo.png" />
+                </div>
+                <div calss="login-inf">
+                    <h2>用戶設定</h2>
+                </div>
+            </div>
+            <div class="login-inform">
+                <form method="POST" class="login-form">
+                    <!--用戶名稱-->
+                    <img class="user-icon" src="img/login_username.png" />
+                    <input type="text" name="UserName" class="login-UserName" id="login-UserName" placeholder="用戶名稱">
+                    <!--密碼-->
+                    <input type="password" class="login-password" id="login-password" placeholder="密碼">
+                    <img class="password-icon" src="img/login_password.png" />
+                    <p class="login-state"></p>
+                    <button class="login-button"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--首頁-->
+    <div data-role="page" id="page-index">
+        <div class="home-body">
+            <div class="home-tool">
+                <img class="home-search" src="img/home_search.png">
+                <img class="home-recommed" src="img/home_recommed.png">
+            </div>
+            <div class="home-user">
+                <div class="username">
+                    <h4 class="home-name">用戶名</h4>
+                    <p class="home-grade">資訊傳播學系 三年級</p>
+                </div>
+                <div class="user-photo">
+                    <img src="img/photo.png" />
+                </div>
+            </div>
+            <div class="home-category">
+                <img src="img/home_category.png" />
+                <div class="category-button">
+                    <img class="catory-LE" src="img/LE_1.png">
+                    <img class="catory-LS" src="img/LS_1.png">
+                    <img class="catory-GS" src="img/GS_1.png">
+                    <img class="catory-GN" src="img/GN_1.png">
+                </div>
+            </div>
+            <div class="home-list">
+                <div class="home-recommedww">
+                    <img class="home-title" src="img/home_recommedww.png" /><br />
+                    <div class="home-classlist-list" id="home-classlist-recommedlist"></div>
+                </div>
+                <div class="home-hot">
+                    <img class="home-title" src="img/home_hot.png" /><br>
+                    <div class="home-classlist-list" id="home-classlist-recommedlist"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--課程列表-->
     <div data-role="page" id="page-classlist">
-      <div class="classlist-body">
-        <div class="classlist-header">
-            <a href="#page-index" class="classlist-classlist-back"><img src="img/back.png"></a>
+        <div class="classlist-body">
+            <div class="classlist-header">
+                <a href="#page-index" class="classlist-classlist-back"><img src="img/back.png"></a>
+            </div>
+            <div class="classlist-item">
+                <img src="img/GS_1.png" class="class_btn btn_GS">
+                <img src="img/GN_1.png" class="class_btn btn_GN">
+                <img src="img/LS_1.png" class="class_btn btn_LS">
+                <img src="img/LE_1.png" class="class_btn btn_LE">
+            </div>
+            <div class="classlist-classlist"></div>
         </div>
-        <div class="classlist-item">
-            <img src="img/GS_1.png" class="class_btn btn_GS">
-            <img src="img/GN_1.png" class="class_btn btn_GN">
-            <img src="img/LS_1.png" class="class_btn btn_LS">
-            <img src="img/LE_1.png" class="class_btn btn_LE">
-        </div>
-        <div class="classlist-classlist"></div>
-    </div>  
     </div>
     <!--課程詳細資訊-->
     <div data-role="page" id="page-classinfo"></div>
-    <!--首頁-->
-    <div data-role="page" id="page-index"></div>
-    <!--登入頁面-->
-    <div data-role="page" id="page-login"></div>
     <!--個人頁面-->
     <div data-role="page" id="page-personal"></div>
     <!--搜尋頁面-->
-    <div data-role="page" id="page-search"></div>
+    <div data-role="page" id="page-search">
+        <div class="search-body">
+            <img src="img/cancel.png" class="search-cancel-btn">
+            <div class="search-container">
+                <img class="search-icon" src="img/search_icon.png">
+                <input type="text" class="search-input" id="search-input" placeholder="搜尋" />
+                <img class="search-button" alt="send" src="img/search_GO.png">
+            </div>
+            <div class="search-history">
+                <h3>搜尋歷史</h3>
+                <hr>
+                <div calss="history-inform">
+                    <p>尚無歷史紀錄</p>
+                    <p>尚無歷史紀錄</p>
+                    <p>尚無歷史紀錄</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--搜尋結果頁面-->
     <div data-role="page" id="page-searchResult"></div>
     <!--我要推薦頁面-1-->
@@ -48,11 +129,33 @@
     <div data-role="page" id="page-write-3"></div>
     <!--我要推薦頁面-確認資訊-->
     <div data-role="page" id="page-write-info"></div>
-    <svg xmlns="http://www.w3.org/2000/svg"><defs>
-    <linearGradient id="Gradient1">
-        <stop stop-color="rgba(83,101,208,0.8)" offset="0%"/>
-        <stop stop-color="rgba(253,127,153,1)" offset="100%"/>
-    </linearGradient>
-    </defs></svg>
+    <!--我要甚麼課頁面-->
+    <div data-role="page" id="page-chooseclass">
+        <div class="chosse-body">
+            <div class="choose-title">
+                <img class="title-img" src="img/choose_icon.png" />
+                <h2>想選什麼課</h2>
+                <p>點選三個主題<br />我們幫你篩選課程</p>
+            </div>
+            <div class="choose-content"></div>
+
+            <div class="choose-start">
+                <p>你準備好了嗎?<br />一起來做好課前準備吧！</p>
+                <img class="choose-start-button" src="img/choose_btn.png">
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="Gradient1">
+                <stop stop-color="rgba(83,101,208,0.8)" offset="0%" />
+                <stop stop-color="rgba(253,127,153,1)" offset="100%" />
+            </linearGradient>
+        </defs>
+    </svg>
+    <div data-role="popup" id="pop-choose-onlythree">
+        <p>只能選擇三個哦，再次點選可以取消選取!</p>
+    </div>
 </body>
+
 </html>

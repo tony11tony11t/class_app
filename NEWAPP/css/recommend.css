@@ -1,0 +1,571 @@
+
+.recommend-page{
+    background-image: url(../img/choose_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+.recommend-header{
+    width:100%;
+    height:18%;
+    z-index: 1;
+}
+.recommend-back{
+    height:13%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 8%;
+    z-index: 2;
+}
+.recommend-back img{
+    width: 6vw;
+}
+.recommend-cancle{
+    height:13%;
+    float: right;
+    margin-top: 8%;
+    margin-right: 5%;
+    z-index: 2;
+}
+.recommend-cancle img{
+     width: 6vw;
+}
+.recommend-recommend{
+    background-image: url(../img/writeRecommed_logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    width:45%;
+    height:100%;
+    float: left;
+    margin-left: 14%;
+    z-index: 2;
+}
+.recommend-mid{
+    margin-top: 10%;
+}
+.recommend-text{
+    width:99%;
+    height:20%;
+    margin-top: 70%;
+    text-align: center;
+    border:1px black solid;
+}
+.form-semester{
+    width:70%;
+    height: 7%;
+    border:1px black solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    border-radius: 10px;
+    border-color: #5E6ED0;
+ 
+}
+.form-area{
+    width:70%;
+    height: 7%;
+    border:1px black solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    border-radius: 10px;
+    border-color: #5E6ED0;
+}
+.form-class{
+    width:70%;
+    height: 7%;
+    border:1px black solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    border-radius: 10px;
+    border-color: #5E6ED0;
+}
+.recommend-form{
+    text-align: center;
+}
+.semester{
+    margin-left: 15%;
+    text-align: left;
+    
+}
+
+.recommend-bot{
+    margin-top: 30%;
+    text-align: center;
+    height:10%
+}
+.recommend-button{ 
+    width: 40%;
+    margin-left: 30%;
+    height:60%;
+    background-image: url(../img/startWrite.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    float:left;
+    
+}
+.bot-button{
+    width: 50%;
+    border:1px black solid;
+    text-align: center;
+    margin-left: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+}
+.recommend-bott-background{
+    width: 100%;
+    height:15%;
+    border:1px black solid;
+    z-index: 1;
+}
+/****************************************/
+.introduce-page{
+    width: 100%;
+    background-image: url(../img/girl.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.introduce-m-page{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/score_bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+.introduce-mid{
+    height:30%;
+}
+.introduce-header{
+    height:18%;
+    z-index: 1;
+}
+.introduce-name{
+    float: left;
+    text-align: center;
+    font-size: 18pt;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.introduce-table{
+    border:1px white solid;
+    margin:auto;
+    width: 90%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.introduce-div{
+  text-align: center;
+}
+.introduce-firstinfo{
+    margin: auto;
+}
+.introduce-teacher-div{
+    width:30%;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.introduce-semester-div{
+    width:30%;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+     margin-left: 9%;
+    margin-right: 9%;
+}
+.introduce-class-name{
+    width:30%;
+}
+.introduce-score-name{
+     width:30%;
+}
+.introduce-teacher-name{
+     width:30%;
+}
+.introduce-semseter-name{
+     width:30%;
+}
+.introduce-okbtn{
+    width: 25vw;
+    margin-top: 40%;
+    margin-left: 70%;
+}
+/******************************************/
+.message-bot{
+    background-color: white;
+    border-top: 1px black solid;
+    border-radius: 30px;
+    margin-top: 10%;
+    width: 100%;
+    height:70%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    
+}
+.message-p-score{
+    background-image: url(../img/composite.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    width: 30%;
+    height: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.message-img{
+    background-image: url(../img/six.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    width:60%;
+    height:40%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.message-background{
+    margin-top: 10%;
+    background-color: #D7DBF3;
+    width: 100%;
+    height:auto;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-radius: 30px;
+    padding-bottom: 5%;
+}
+.message-message{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    border: 1px black solid;
+    border-radius: 15px; 
+}
+.message-say{
+    background-image: url(../img/peopleSay.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 5%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.message-name{
+    color: #FD6585;
+    margin-left: 7%;
+    width:22%;
+    float: left;
+    
+}
+.message-form{
+    margin-left: 7%;   
+}
+
+.message-p{
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.message-label{
+    color: #5E6ED0;
+    margin-bottom: 5%;
+    float: left;
+    width:100%;
+}
+#content{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+#reason{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+#score{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+#extra{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+/***********************************************/
+.class-1-page{
+   
+}
+
+.class-1-top{
+    width: 60%;
+    height:50%;
+    background-image: url(../img/step1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 22%;
+}
+
+.class-1-mid{
+    margin-top: 10%;
+    width: 100%;
+    height:50%;
+}
+.class-1-bot{
+    width: 100%;
+    height:27%;
+}
+.class-1-div{
+    margin-top: 5%;
+    margin-left: 18%;
+    float: left;
+    width:22.5%;
+    height:50%;
+    border: 1px black solid;
+}
+
+
+.class-p{
+    float:left;
+   width:80%;
+   height: 50%;
+   margin-left: 18%; 
+}
+.class-1-p{
+    float:left;
+    width:28%;
+    border: 1px black solid;
+    height: 30%;
+    margin-top: %;
+}
+.class-1-bar-p{
+    width: 100%;
+    height:2%;
+    float:left;
+    margin-top: 0px;
+}
+.class-1-bar{
+   float: left;
+   margin-top: 5%;
+   width:3%;
+   height:20%;  
+   border:2px #9999FF dashed;
+}
+.class-bar{
+    width:100%;
+    height: 15%;
+    float:left;
+    margin-bottom: 4%;
+}
+.class-1-bar-line{
+    float: left;
+    width: 16%;
+    margin-top: 7%;
+    border:1px pink solid;
+}
+.class-bar{
+    width: 100%;
+    margin-left:5%; 
+}
+
+.class-1-bot-background{
+    width:100%;
+    height:70%;
+    border:1px black solid;
+}
+.class-bar{
+    width: 100%;
+    margin-left:5%; 
+}
+
+.class-1-bot-background{
+    width:100%;
+    height:70%;
+    border:1px black solid;
+}
+/************************************/
+.class-2-top{
+      width: 65%;
+    height:80%;
+    float: left;
+    background-image: url(../img/step2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top:22%;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.class-2-mid{
+    margin-top: 26%;
+}
+.class-2-div{
+    margin-top: 5%;
+    float: left;
+    width:22.5%;
+    height:50%;
+    border: 1px black solid;
+}.class-2-p{
+    margin-left: 10%;
+    color: #040C3E;
+    margin-top: 0px;
+}
+.class-2-text{
+    border-radius: 20px;
+    font-size: 15pt;
+    text-align: center;  
+    box-shadow: 5px 5px 5px #888888;
+}
+.class-2-reason{
+    width: 100%;
+    height:30%;
+    text-align: center;
+}
+/************************************/
+.class-top-background{
+   background-image: url(../img/choose_bgUP.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+    width: 100%;
+    height:12%;
+    z-index: 1;
+}
+.class-bot-background{
+   background-image: url(../img/choose_bgDown.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+    width: 100%;
+    height:10%;
+    z-index: 1;
+}
+.class-3-top{
+    width: 65%;
+    height:80%;
+    float: left;
+    background-image: url(../img/step3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top:22%;
+    margin-left: 5%;
+    z-index: 1;
+}
+.class-name{
+    margin-top: 25%;
+    text-align: center;
+    color: #040C3E;
+}
+
+.class-3-name{
+   font-size: 18pt; 
+    margin-bottom: 2%;
+}
+.class-3-d-title{
+    width:30%;
+    height:5%; 
+    margin: 0 auto;
+}
+.class-3-title{
+    width: 50%;
+   float:left;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    color: #09197B;
+}
+
+.class-3-semester{
+    width:15%;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    float:left;
+    color: #09197B;
+}
+.class-3-field{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float:left;
+    color: #09197B;
+}
+.class-3-div{
+    margin-top: 5%;
+    float: left;
+    margin-right: 10%;
+    width:22.5%;
+    height:50%;
+    border: 1px black solid;
+}
+.class-3-img{
+    background-image: url(../img/six.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    width:80%;
+    height:30%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.class-back{
+    background-image: url(../img/back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:8%;
+    height:19.5%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    z-index: 2;
+}
+.class-cancle{
+    background-image: url(../img/cancel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    width:8%;
+    height:19.5%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    z-index: 2;
+}
+.class-1-bot-button{
+    margin-left: 65%;
+    width:30%;
+    height:6%; 
+    background-image: url(../img/finish.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.class-2-bot-button{
+    margin-left: 65%;
+    width:30%;
+    height:6%; 
+    background-image: url(../img/next.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ @media screen and (min-width: 375px) {
+            .introduce-table {
+               width: 80%;
+            }
+        }
