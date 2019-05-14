@@ -1,0 +1,189 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .classlist-body {
+            background-color: #5365D0;
+            height: 100%;
+            min-height: 100vh;
+        }
+
+        .classlist-header {
+            padding-top: 3vh;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            height: 3vh;
+        }
+
+        .classlist-header a,
+        .classlist-header img {
+            height: 100%;
+        }
+
+        .classlist-item img {
+            display: inline-block;
+            width: 15vw;
+            margin-right: 2vw;
+            margin-left: 2vw;
+        }
+
+        .classlist-item {
+            text-align: center;
+            margin-top: 3vh;
+        }
+
+        .classlist-classlist {
+            margin-top: 5vh;
+        }
+
+        .classlist-classlist-item {
+            width: 44vw;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            height: 38vh;
+            margin-left: 3vw;
+            margin-right: 3vw;
+            margin-bottom: 4vh;
+            display: inline-block;
+        }
+
+        .classlist-classlist-item h5 {
+            white-space: normal;
+        }
+
+        .classlist-classlist-raderchart {
+            text-align: center;
+            padding: 10%;
+        }
+
+        rader-chart {
+            width: 35vw;
+        }
+
+        .classlist-classlist-title {
+            margin-top: -20px;
+            text-align: center;
+            height: 11vw;
+            padding: 2vw;
+        }
+
+        .classlist-classlist-starcount {
+            text-align: center;
+            margin-top: 1vh;
+        }
+
+        .classlist-classlist-starcount img {
+            height: 3vh;
+            margin-left: 2vw;
+        }
+
+        /************************************************************/
+        .personal-header {
+            background-image: url(../img/home2_bg1.png);
+            background-size: 100%;
+            text-align: center;
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+
+        .personal-header img {
+            width: 20%;
+        }
+
+        .personal-header p,
+        .personal-header h4 {
+            font-weight: 700;
+            color: white;
+        }
+
+        .personal-header p {
+            font-size: 14px
+        }
+
+        .personal-classblock {
+            margin-top: 2%;
+            text-align: center;
+        }
+
+        .personal-title {
+            width: 20vw;
+            margin: 3vw 5vw 0vw 5vw;
+        }
+
+        .personal-classicon {
+            display: inline-block;
+            margin-left: 3vw;
+            margin-right: 3vw;
+        }
+
+        .personal-classicon img {
+            width: 14vw;
+        }
+
+        .personal-icon-title {
+            font-size: 15px;
+        }
+
+        .wait-body {
+            background-color: #5365D0;
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .wait-body .wait-icon {
+            width: 30vw;
+            margin-top: 25vh;
+        }
+
+        .wait-state-p {
+            padding-top: 2vh;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .wait-state-p p {
+            margin-top: 1vh;
+        }
+
+        .wait-body .wait-bar {
+            position: absolute;
+            left: 25vw;
+            top: 60vh;
+            width: 50vw;
+        }
+
+        .login-state {
+            text-align: center;
+            font-size: 18px;
+            color: red;
+            font-weight: 700;
+        }
+
+        @media screen and (min-width: 375px) {
+            .classlist-classlist-starcount {
+                margin-top: -1vh;
+            }
+        }
+
+        @media screen and (min-width: 400px) {
+            .classlist-classlist-item {
+                height: 42vh;
+            }
+        }
+
+        .jc-bs3-container {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .jconfirm-content div {
+            line-height: 6vh;
+            font-size: 15px;
+            font-weight: 600;
+        }

@@ -1,0 +1,643 @@
+
+.recommend-body{
+    background-image: url(../img/choose_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.recommend-header{
+    width:100%;
+    height:18%;
+    z-index: 1;
+}
+.recommend-back{
+    height:13%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 8%;
+    z-index: 2;
+}
+.recommend-back img{
+    width: 6vw;
+}
+.recommend-cancle{
+    height:13%;
+    float: right;
+    margin-top: 8%;
+    margin-right: 5%;
+    z-index: 2;
+}
+.recommend-cancle img{
+     width: 6vw;
+}
+.recommend-recommend{
+    width:40%;
+    height:100%;
+    margin: auto;
+}
+.recommend-recommend img{
+    width: 100%;
+    margin-top: -30%;
+}
+.recommend-mid{
+    margin-top: 10%;
+}
+.recommend-text{
+    width:99%;
+    height:20%;
+    margin-top: 70%;
+    text-align: center;
+    border:1px black solid;
+}
+.form-semester{
+    width:70%;
+    height: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+.form-area{
+    width:70%;
+    height: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+.form-class{
+    width:70%;
+    height: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+.recommend-form{
+    text-align: center;
+}
+.recommend-semester{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    color:#09197B;
+    font-weight: 800;
+}
+.recommend-form select option,
+.recommend-form select{
+    color:#AAB3E7;
+    background-color: white;
+}
+
+.bot-button{
+    width: 50%;
+    border:1px black solid;
+    text-align: center;
+    margin-left: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+}
+.recommend-bott-background{
+    width: 100%;
+    height:15%;
+    border:1px black solid;
+    z-index: 1;
+}
+.recommend-btnStartWrite{
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 10vh;
+}
+/****************************************/
+.introduce-body{
+    width: 100%;
+    background-image: url(../img/girl.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.introduce-m-page{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/score_bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+.introduce-mid{
+    height:30%;
+}
+.introduce-header{
+    height:18%;
+    z-index: 1;
+}
+.introduce-name{
+    float: left;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.introduce-table{
+    border:1px white solid;
+    margin:auto;
+    width: 90%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.introduce-div{
+  text-align: center;
+}
+.introduce-firstinfo{
+    margin: auto;
+}
+.introduce-teacher-div{
+    width:30%;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.introduce-semester-div{
+    width:30%;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+     margin-left: 9%;
+    margin-right: 9%;
+}
+.introduce-class-name{
+    width:30%;
+}
+.introduce-score-name{
+     width:30%;
+}
+.introduce-teacher-name{
+     width:30%;
+}
+.introduce-semseter-name{
+     width:30%;
+}
+.introduce-okbtn{
+    width: 25vw;
+    margin-top: 40%;
+    margin-left: 70%;
+}
+/******************************************/
+.message-bot{
+    background-color: white;
+    border-top: 1px black solid;
+    border-radius: 30px;
+    margin-top: 10%;
+    width: 100%;
+    height:70%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    
+}
+.message-p-score{
+    background-image: url(../img/composite.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    width: 30%;
+    height: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.message-img{
+    background-image: url(../img/six.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    width:60%;
+    height:40%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.message-background{
+    margin-top: 10%;
+    background-color: #D7DBF3;
+    width: 100%;
+    height:auto;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-radius: 30px;
+    padding-bottom: 5%;
+}
+.message-message{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: 10% auto;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    font-size: 17px;
+    padding: 5vw;
+}
+.message-say{
+    background-image: url(../img/peopleSay.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 5%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.message-name{
+    color: #FD6585;
+    font-weight: 700;
+}
+.message-namesay{
+    font-weight: 700;
+    color:#09197B
+}
+.message-form{
+    margin-left: 7%;   
+}
+.message-title{
+    color:#5E6ED0;
+    font-weight: 700;
+    margin: 5% 0%;
+}
+.message-content{
+    border-bottom: #5E6ED0 1px solid;
+}
+.message-p{
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#content{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+#reason{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+#score{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+#extra{
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    border-bottom: 1px #5E6ED0 solid;
+}
+/***********************************************/
+.class-1-page,
+.class-2-page{
+   background-image: url(../img/choose_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
+}
+.class-3-page{
+    background-image: url(../img/choose_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    overflow-y:scroll;
+}
+
+.class-1-top{
+    width: 60vw;
+    padding-top:5vh; 
+    margin-left:20vw;
+}
+
+.class-1-mid{
+    margin-top: 22%;
+    width: 100%;
+}
+.class-1-bot{
+    width: 100%;
+    height:27%;
+}
+.class-1-div{
+    margin-top: 5%;
+    margin-left: 18%;
+    float: left;
+    width:22.5%;
+    height:50%;
+    border: 1px black solid;
+}
+.class-num{
+    display: inline-block;
+}
+
+.class-p{
+    float:left;
+   width:80%;
+   height: 50%;
+   margin-left: 18%; 
+}
+.class-1-p{
+    float:left;
+    width:28%;
+    border: 1px black solid;
+    height: 30%;
+    margin-top: %;
+}
+.class-1-bar-p{
+    color:#09197B;
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 10vw;
+}
+.class-1-barscore{
+    padding-left: 10vw;
+    height:4vh;
+}
+.class-1-barscoretxt{
+    padding-left: 10.5vw;
+    color:#AAB3E7;
+    font-size: 14px;
+    font-weight: 500;
+}
+.class-1-barscoretxt>p{
+    margin-right: 14vw;
+}
+.class-1-bar{
+   background-color: #FFCCD8;
+   background-size: 100% 100%;
+   width: 3vw;
+   height:3vw;
+   border-radius: 99px;
+   display: inline-block;
+   margin-right: 13vw;
+   position: relative;
+   z-index: 100; 
+}
+.class-1-barscore .class-1-bar:nth-child(1){
+    background-color: #0B1F9A;
+    width: 4vw;
+    height: 4vw;
+}
+.class-1-line-under{
+    width: 72vw;
+    height:1vw;
+    background-color: #FFCCD8;
+    background-size: 100% 100%;
+    position: relative;
+    top:-3.5vw;
+}
+.class-1-line-fill{
+    /*width: 18vw;*/
+    width: 0vw;
+    height:1vw;
+    background-color: #5E6ED0;
+    background-size: 100% 100%;
+    position: relative;
+    top:-4.5vw;
+}
+.class-bar{
+    width:100%;
+}
+.class-1-bot-background{
+    width:100%;
+    height:70%;
+    border:1px black solid;
+}
+.class-1-bot-background{
+    width:100%;
+    height:70%;
+    border:1px black solid;
+}
+/************************************/
+.class-2-top{
+      width: 65%;
+    height:80%;
+    float: left;
+    background-image: url(../img/step2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top:22%;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.class-2-mid{
+    margin-top: 26%;
+}
+.class-2-div{
+    margin-top: 5%;
+    float: left;
+    width:22.5%;
+    height:50%;
+    border: 1px black solid;
+}.class-2-p{
+    margin-left: 10%;
+    font-size: 15px;
+    color: #09197B;
+    font-weight: 800;
+}
+.class-2-text{
+    border-radius: 20px;
+    font-size: 15pt;
+    text-align: center;  
+    box-shadow: 5px 5px 5px #888888;
+}
+.class-2-reason{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+}
+.class-2-page textarea{
+    text-align: left;
+    font-size: 15px;
+    padding: 5%;
+}
+/************************************/
+.class-top-background{
+    width: 100%;
+    height:12%;
+    z-index: 1;
+}
+.class-bot-background{
+    width: 100%;
+    height:10%;
+    z-index: 1;
+}
+.class-3-top{
+    width: 65%;
+    height:80%;
+    float: left;
+    background-image: url(../img/step3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top:22%;
+    margin-left: 5%;
+    z-index: 1;
+}
+.class-name{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #040C3E;
+}
+.class-3-raderchart{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 40px;
+    background-color: #D7DBF3;
+    text-align: center;
+}
+.class-3-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    
+}
+.class-3-title{
+    width: 100%;
+    color: #09197B;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 40vw;
+    font-weight: 600;
+}
+
+.class-3-semester,
+.class-3-field{
+    color: #09197B;
+}
+.class-3-page .class-2-mid{
+    margin-top: 0%;
+}
+.class-3-div{
+    margin-top: 5%;
+    float: left;
+    margin-right: 10%;
+    width:22.5%;
+    height:50%;
+    border: 1px black solid;
+}
+.class-3-img{
+    background-image: url(../img/six.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    width:80%;
+    height:30%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.class-back{
+    background-image: url(../img/back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:8%;
+    height:19.5%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    z-index: 2;
+}
+.class-cancle{
+    background-image: url(../img/cancel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    width:8%;
+    height:19.5%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    z-index: 2;
+}
+.class-1-bot-button{
+    width: 25%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+    left: 70%;
+}
+.class-2-bot-button{
+    margin-left: 65%;
+    width:30%;
+    height:6%; 
+    background-image: url(../img/next.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ @media screen and (min-width: 375px) {
+            .introduce-table {
+               width: 80%;
+            }
+            .class-1-barscoretxt>p{
+               margin-right: 14.5vw;
+            }
+        }
+.recommend-form .ui-select{
+        width: 70%;
+        margin: auto;
+}
+.recommend-form .ui-select>div{
+    border: 1px solid #5E6ED0;
+    background: white;
+}
+.recommend-form .ui-select>div>span{
+    color:#5E6ED0;
+}
+.recommend-form .ui-icon-carat-d:after{
+    background-image: url(../img/arrow-down.png);
+    background-size: 100% 100%;
+    background-color: white;
+}
+.classinfo-body{
+    width: 100vw;
+    background-image: url(../img/score_bg1.png);
+    background-size: 100%;
+    height:100vh;
+}
+.classinfo-raderchart{
+    background-color: white;
+    margin-top: 5vh;
+    text-align: center;
+    padding-bottom: 10vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.classinfo-raderchart img{
+    width: 30vw;
+    display: block;
+    padding: 3vh 3vh 0vh 3vh;
+}
+.classinfo-everybodysay{
+    background-color: #D7DBF3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -10vh;
+    padding-bottom: 10vh;
+}
+.classinfo-everybodysay img{
+    width: 30vw;
+    display: block;
+    padding: 3vh 3vh 0vh 3vh;
+}

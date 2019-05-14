@@ -1,0 +1,365 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" type="text/css">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel=stylesheet type="text/css" href="css/index.css">
+    <link rel=stylesheet type="text/css" href="css/recommend.css">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <script>
+        /*  $(document).ready(function(){
+          $("#nav li").hover(function(){
+              $("ul:not(:animated)",this).slideDown("fast");
+              $("this").css({
+                  'color':'white'
+              });              
+          },function(){
+              $("ul",this).slideUp("fast");
+          });
+        });*/
+        $(document).ready(function() {
+            $(".class-1-funny .class-1-barscore .class-1-funny-dot").click(function() {
+                var score = parseInt($(this).attr("data-score"));
+                $(".class-1-funny .class-1-barscore .class-1-funny-dot").each(function(e) {
+                    $(this).css({
+                            backgroundColor: "#FFCCD8",
+                            width: "3vw",
+                            height: "3vw",
+                            position: "relative",
+                            top: "0px",
+                            marginRight:"13vw"
+                    })
+                    if (score > e) {
+                         console.log($(this));
+                        $(this).css({
+                            backgroundColor: "#5E6ED0",
+                            width: "3.5vw",
+                            height: "3.5vw",
+                            position: "relative",
+                            top: "2px",
+                            marginRight:"12.5vw"
+
+                        })
+                    }
+                })
+                var len=(score-1)*18;
+                $(".class-1-funny .class-1-barscore .class-1-line-fill").css({
+                    width:len+"vw"
+                })
+                $(this).css({
+                    backgroundColor: "#0B1F9A",
+                    width: "4vw",
+                    height: "4vw",
+                })
+            });
+            $(".class-1-self .class-1-barscore .class-1-self-dot").click(function() {
+                var score = parseInt($(this).attr("data-score"));
+                $(".class-1-self .class-1-barscore .class-1-self-dot").each(function(e) {
+                    $(this).css({
+                            backgroundColor: "#FFCCD8",
+                            width: "3vw",
+                            height: "3vw",
+                            position: "relative",
+                            top: "0px",
+                            marginRight:"13vw"
+                    })
+                    if (score > e) {
+                         console.log($(this));
+                        $(this).css({
+                            backgroundColor: "#5E6ED0",
+                            width: "3.5vw",
+                            height: "3.5vw",
+                            position: "relative",
+                            top: "2px",
+                            marginRight:"12.5vw"
+
+                        })
+                    }
+                })
+                var len=(score-1)*18;
+                $(".class-1-self .class-1-barscore .class-1-line-fill").css({
+                    width:len+"vw"
+                })
+                $(this).css({
+                    backgroundColor: "#0B1F9A",
+                    width: "4vw",
+                    height: "4vw",
+                })
+            });
+            $(".class-1-interactive .class-1-barscore .class-1-interactive-dot").click(function() {
+                var score = parseInt($(this).attr("data-score"));
+                $(".class-1-interactive .class-1-barscore .class-1-interactive-dot").each(function(e) {
+                    $(this).css({
+                            backgroundColor: "#FFCCD8",
+                            width: "3vw",
+                            height: "3vw",
+                            position: "relative",
+                            top: "0px",
+                            marginRight:"13vw"
+                    })
+                    if (score > e) {
+                         console.log($(this));
+                        $(this).css({
+                            backgroundColor: "#5E6ED0",
+                            width: "3.5vw",
+                            height: "3.5vw",
+                            position: "relative",
+                            top: "2px",
+                            marginRight:"12.5vw"
+
+                        })
+                    }
+                })
+                var len=(score-1)*18;
+                $(".class-1-interactive .class-1-barscore .class-1-line-fill").css({
+                    width:len+"vw"
+                })
+                $(this).css({
+                    backgroundColor: "#0B1F9A",
+                    width: "4vw",
+                    height: "4vw",
+                })
+            });
+            $(".class-1-practice .class-1-barscore .class-1-practice-dot").click(function() {
+                var score = parseInt($(this).attr("data-score"));
+                $(".class-1-practice .class-1-barscore .class-1-practice-dot").each(function(e) {
+                    $(this).css({
+                            backgroundColor: "#FFCCD8",
+                            width: "3vw",
+                            height: "3vw",
+                            position: "relative",
+                            top: "0px",
+                            marginRight:"13vw"
+                    })
+                    if (score > e) {
+                         console.log($(this));
+                        $(this).css({
+                            backgroundColor: "#5E6ED0",
+                            width: "3.5vw",
+                            height: "3.5vw",
+                            position: "relative",
+                            top: "2px",
+                            marginRight:"12.5vw"
+
+                        })
+                    }
+                })
+                var len=(score-1)*18;
+                $(".class-1-practice .class-1-barscore .class-1-line-fill").css({
+                    width:len+"vw"
+                })
+                $(this).css({
+                    backgroundColor: "#0B1F9A",
+                    width: "4vw",
+                    height: "4vw",
+                })
+            });
+            $(".class-1-theory .class-1-barscore .class-1-theory-dot").click(function() {
+                var score = parseInt($(this).attr("data-score"));
+                $(".class-1-theory .class-1-barscore .class-1-theory-dot").each(function(e) {
+                    $(this).css({
+                            backgroundColor: "#FFCCD8",
+                            width: "3vw",
+                            height: "3vw",
+                            position: "relative",
+                            top: "0px",
+                            marginRight:"13vw"
+                    })
+                    if (score > e) {
+                         console.log($(this));
+                        $(this).css({
+                            backgroundColor: "#5E6ED0",
+                            width: "3.5vw",
+                            height: "3.5vw",
+                            position: "relative",
+                            top: "2px",
+                            marginRight:"12.5vw"
+
+                        })
+                    }
+                })
+                var len=(score-1)*18;
+                $(".class-1-theory .class-1-barscore .class-1-line-fill").css({
+                    width:len+"vw"
+                })
+                $(this).css({
+                    backgroundColor: "#0B1F9A",
+                    width: "4vw",
+                    height: "4vw",
+                })
+            });
+            $(".class-1-total .class-1-barscore .class-1-total-dot").click(function() {
+                var score = parseInt($(this).attr("data-score"));
+                $(".class-1-total .class-1-barscore .class-1-total-dot").each(function(e) {
+                    $(this).css({
+                            backgroundColor: "#FFCCD8",
+                            width: "3vw",
+                            height: "3vw",
+                            position: "relative",
+                            top: "0px",
+                            marginRight:"13vw"
+                    })
+                    if (score > e) {
+                         console.log($(this));
+                        $(this).css({
+                            backgroundColor: "#5E6ED0",
+                            width: "3.5vw",
+                            height: "3.5vw",
+                            position: "relative",
+                            top: "2px",
+                            marginRight:"12.5vw"
+
+                        })
+                    }
+                })
+                var len=(score-1)*18;
+                $(".class-1-total .class-1-barscore .class-1-line-fill").css({
+                    width:len+"vw"
+                })
+                $(this).css({
+                    backgroundColor: "#0B1F9A",
+                    width: "4vw",
+                    height: "4vw",
+                })
+            });
+            
+        });
+
+    </script>
+    <div class="class-1-page">
+        <div class="class-top-background">
+            <div class="recommend-back class-1-back">
+                <img src="img/back.png" class="recommend-img-back">
+            </div>
+            <div class="recommend-cancle class-2-back">
+                <img src="img/cancel.png" class="recommend-img-cancle">
+            </div>
+            <img class="class-1-top" src="img/step1.png">
+        </div>
+        <div class="class-1-mid" id="class-1-mid">
+            <div class="class-bar class-1-funny">
+                <p class="class-1-bar-p">趣味程度</p>
+                <div class="class-1-barscore">
+                    <div class="class-1-bar class-1-funny-dot" data-score="1"></div>
+                    <div class="class-1-bar class-1-funny-dot" data-score="2"></div>
+                    <div class="class-1-bar class-1-funny-dot" data-score="3"></div>
+                    <div class="class-1-bar class-1-funny-dot" data-score="4"></div>
+                    <div class="class-1-bar class-1-funny-dot" data-score="5"></div>
+                    <div class="class-1-line-under"></div>
+                    <div class="class-1-line-fill"></div>
+                </div>
+                <div class="class-1-barscoretxt">
+                    <p class="class-num">1</p>
+                    <p class="class-num">2</p>
+                    <p class="class-num">3</p>
+                    <p class="class-num">4</p>
+                    <p class="class-num">5</p>
+                </div>
+            </div>
+
+            <div class="class-bar class-1-self">
+                <p class="class-1-bar-p">自學程度</p>
+                <div class="class-1-barscore">
+                    <div class="class-1-bar class-1-self-dot" data-score="1"></div>
+                    <div class="class-1-bar class-1-self-dot" data-score="2"></div>
+                    <div class="class-1-bar class-1-self-dot" data-score="3"></div>
+                    <div class="class-1-bar class-1-self-dot" data-score="4"></div>
+                    <div class="class-1-bar class-1-self-dot" data-score="5"></div>
+                    <div class="class-1-line-under"></div>
+                    <div class="class-1-line-fill"></div>
+                </div>
+                <div class="class-1-barscoretxt">
+                    <p class="class-num">1</p>
+                    <p class="class-num">2</p>
+                    <p class="class-num">3</p>
+                    <p class="class-num">4</p>
+                    <p class="class-num">5</p>
+                </div>
+            </div>
+            <div class="class-bar class-1-interactive">
+                <p class="class-1-bar-p">師生互動</p>
+                <div class="class-1-barscore">
+                    <div class="class-1-bar class-1-interactive-dot" data-score="1"></div>
+                    <div class="class-1-bar class-1-interactive-dot" data-score="2"></div>
+                    <div class="class-1-bar class-1-interactive-dot" data-score="3"></div>
+                    <div class="class-1-bar class-1-interactive-dot" data-score="4"></div>
+                    <div class="class-1-bar class-1-interactive-dot" data-score="5"></div>
+                    <div class="class-1-line-under"></div>
+                    <div class="class-1-line-fill"></div>
+                </div>
+                <div class="class-1-barscoretxt">
+                    <p class="class-num">1</p>
+                    <p class="class-num">2</p>
+                    <p class="class-num">3</p>
+                    <p class="class-num">4</p>
+                    <p class="class-num">5</p>
+                </div>
+            </div>
+            <div class="class-bar class-1-practice">
+                <p class="class-1-bar-p">實作(例:測驗、報告)</p>
+                <div class="class-1-barscore">
+                    <div class="class-1-bar class-1-practice-dot" data-score="1"></div>
+                    <div class="class-1-bar class-1-practice-dot" data-score="2"></div>
+                    <div class="class-1-bar class-1-practice-dot" data-score="3"></div>
+                    <div class="class-1-bar class-1-practice-dot" data-score="4"></div>
+                    <div class="class-1-bar class-1-practice-dot" data-score="5"></div>
+                    <div class="class-1-line-under"></div>
+                    <div class="class-1-line-fill"></div>
+                </div>
+                <div class="class-1-barscoretxt">
+                    <p class="class-num">1</p>
+                    <p class="class-num">2</p>
+                    <p class="class-num">3</p>
+                    <p class="class-num">4</p>
+                    <p class="class-num">5</p>
+                </div>
+            </div>
+            <div class="class-bar class-1-theory">
+                <p class="class-1-bar-p">理論</p>
+                <div class="class-1-barscore">
+                    <div class="class-1-bar class-1-theory-dot" data-score="1"></div>
+                    <div class="class-1-bar class-1-theory-dot" data-score="2"></div>
+                    <div class="class-1-bar class-1-theory-dot" data-score="3"></div>
+                    <div class="class-1-bar class-1-theory-dot" data-score="4"></div>
+                    <div class="class-1-bar class-1-theory-dot" data-score="5"></div>
+                    <div class="class-1-line-under"></div>
+                    <div class="class-1-line-fill"></div>
+                </div>
+                <div class="class-1-barscoretxt">
+                    <p class="class-num">1</p>
+                    <p class="class-num">2</p>
+                    <p class="class-num">3</p>
+                    <p class="class-num">4</p>
+                    <p class="class-num">5</p>
+                </div>
+            </div>
+            <div class="class-bar class-1-total">
+                <p class="class-1-bar-p">總分</p>
+                <div class="class-1-barscore">
+                    <div class="class-1-bar class-1-total-dot" data-score="1"></div>
+                    <div class="class-1-bar class-1-total-dot" data-score="2"></div>
+                    <div class="class-1-bar class-1-total-dot" data-score="3"></div>
+                    <div class="class-1-bar class-1-total-dot" data-score="4"></div>
+                    <div class="class-1-bar class-1-total-dot" data-score="5"></div>
+                    <div class="class-1-line-under"></div>
+                    <div class="class-1-line-fill"></div>
+                </div>
+                <div class="class-1-barscoretxt">
+                    <p class="class-num">1</p>
+                    <p class="class-num">2</p>
+                    <p class="class-num">3</p>
+                    <p class="class-num">4</p>
+                    <p class="class-num">5</p>
+                </div>
+            </div>
+            <img class="class-1-bot-button" src="img/finish.png">
+        </div>
+    </div>
+
+</body>
+
+</html>

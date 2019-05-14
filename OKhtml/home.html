@@ -1,0 +1,98 @@
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <script src="js/jquery.min.js"></script>
+    <script src="rader-chart/rader_chart.js"></script>
+    <script src="js/control_db.js"></script>
+    <script src="js/index.js"></script>
+    <script src="module/touchslider/src/touchslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="rader-chart/rader_chart.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/wen.css">
+    <style>
+
+
+    </style>
+</head>
+
+
+<body class="home-body">
+    <!--//////////////////////////////////////-->
+    <div class="home-tool">
+        <img class="home-search" src="img/home_search.png">
+        <img class="home-recommed" src="img/home_recommed.png">
+    </div>
+    <!--//////////////////////////////////////-->
+    <div class="home-user">
+        <div class="username">
+            <h4 class="home-name">用戶名</h4>
+            <p class="home-grade">資訊傳播學系 三年級</p>
+        </div>
+        <div class="user-photo">
+            <img src="img/photo.png" />
+        </div>
+    </div>
+    <!--//////////////////////////////////////-->
+    <div class="home-category">
+        <img src="img/home_category.png" />
+        <div class="category-button">
+            <img class="catory-LE" src="img/LE_1.png">
+            <img class="catory-LS" src="img/LS_1.png">
+            <img class="catory-GS" src="img/GS_1.png">
+            <img class="catory-GN" src="img/GN_1.png">
+        </div>
+    </div>
+    <!--//////////////////////////////////////-->
+    <div class="home-list">
+        <div class="home-recommedww">
+            <img class="home-title" src="img/home_recommedww.png" /><br />
+            <div class="home-classlist-list" id="home-classlist-recommedlist">
+                <!--<div class="classlist-classlist-item home-recommed-listitem">
+                    <div class="classlist-classlist-raderchart">
+                        <rader-chart size="500" data-funny="1" data-self="1" data-interactive="1" data-practice="1" data-theory="1" data-total="1" data-theme="B_GN"></rader-chart>
+                    </div>
+                    <h5 class="classlist-classlist-title">語言與邏輯</h5>
+                    <p class="classlist-classlist-starcount">4<span><img src="img/star.png"></span></p>
+                </div>-->
+            </div>
+        </div>
+        <!--//////////////////////////////////////-->
+        <div class="home-hot">
+            <img class="home-title" src="img/home_hot.png" /><br>
+            <div class="home-classlist-list" id="home-classlist-recommedlist">
+                <!--<div class="classlist-classlist-item home-hot-list">
+                    <div class="classlist-classlist-raderchart">
+                        <rader-chart size="500" data-funny="1" data-self="1" data-interactive="1" data-practice="1" data-theory="1" data-total="1" data-theme="B_GN"></rader-chart>
+                    </div>
+                    <h5 class="classlist-classlist-title">語言與邏輯</h5>
+                    <p class="classlist-classlist-starcount">4<span><img src="img/star.png"></span></p>
+                </div>-->
+            </div>
+            <!--//////////////////////////////////////-->
+        </div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function() {
+        paintrader_chart();
+        /*-----------輪播效果--------------*/
+        /*var ts = new TouchSlider('home-classlist-recommedlist', {
+            duration: 600, //頁面過渡時間
+            direction: 0, //切換方式，0横向，1縱向
+            start: 0, //從哪個開始顯示
+            align: 'left', //對齊方式，left(top) center(middle) right(bottom)
+            mouse: true, //bool 是否可以用滑鼠拖曳
+            mousewheel: false, //bool 是否可以用滾輪換頁
+            arrowkey: false, //bool 是否可以用鍵盤方向鍵換頁
+            fullsize: false, //bool 是否要全螢幕
+            autoplay: true, //bool 是否要自動撥放
+            interval: 5000 //bool 每頁的撥放時間
+        });*/
+    })
+
+</script>
+
+</html>
